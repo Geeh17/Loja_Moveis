@@ -34,9 +34,10 @@ namespace LojasMoveis.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<int>("Descricao")
+                    b.Property<string>("Descricao")
+                        .IsRequired()
                         .HasMaxLength(200)
-                        .HasColumnType("int");
+                        .HasColumnType("nvarchar(200)");
 
                     b.HasKey("CategoriaId");
 
