@@ -1,4 +1,6 @@
 ﻿using LojasMoveis.Context;
+using LojasMoveis.Repositories;
+using LojasMoveis.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace LojasMoveis;
@@ -16,6 +18,9 @@ public class Startup
     {
         services.AddDbContext<AppDbContext>(options =>
         options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+        services.AddTransient<IMovelRepository, MovelRepository>();
+        services.AddTransient<ICategoriaRepository, ICategoriaRepository>();
+
         services.AddControllersWithViews();
     }
 
