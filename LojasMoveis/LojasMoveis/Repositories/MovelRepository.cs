@@ -16,8 +16,8 @@ namespace LojasMoveis.Repositories
         public IEnumerable<Movel> Moveis => _context.Moveis.Include(c => c.Categoria);
 
         public IEnumerable<Movel> MoveisPreferidos => _context.Moveis.
-                                       Where(m => m.IsMovelPreferido).
-                                       Include(c => c.Categoria);
+                                       Where(m => m.IsMovelPreferido)
+                                       .Include(c => c.Categoria);
 
 
         public Movel GetMovelById(int movelId)

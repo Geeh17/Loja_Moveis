@@ -1,0 +1,14 @@
+﻿@model IEnumerable<LojasMoveis.Models.Movel>
+
+    <div>
+        <h2>Todos os Móveis</h2>
+    </div>
+
+    @foreach(var movel in Model)
+    {
+        <div>
+            <h4>@movel.Nome</h4>
+            <p><img src="@movel.ImagemUrl"></p>
+            <h3>Preço : @movel.Preco.ToString("c")</h3>
+        </div>
+    }

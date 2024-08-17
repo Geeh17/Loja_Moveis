@@ -19,7 +19,7 @@ public class Startup
         services.AddDbContext<AppDbContext>(options =>
         options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         services.AddTransient<IMovelRepository, MovelRepository>();
-        services.AddTransient<ICategoriaRepository, ICategoriaRepository>();
+        services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 
         services.AddControllersWithViews();
     }
