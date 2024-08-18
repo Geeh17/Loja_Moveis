@@ -1,14 +1,15 @@
-﻿@model IEnumerable<LojasMoveis.Models.Movel>
+﻿@model MovelListViewModel
 
     <div>
-        <h2>Todos os Móveis</h2>
+        <h2>@Model.CategoriaAtual</h2>
     </div>
 
-    @foreach(var movel in Model)
-    {
-        <div>
-            <h4>@movel.Nome</h4>
-            <p><img src="@movel.ImagemUrl"></p>
-            <h3>Preço : @movel.Preco.ToString("c")</h3>
+    <div class="container">
+        <div class="row">
+        @foreach (var movel in Model.Moveis)
+        {
+            <partial name="_MoveisResumo" for="@movel"/>
+        }
         </div>
-    }
+    </div>
+    

@@ -1,4 +1,5 @@
 ﻿using LojasMoveis.Repositories.Interfaces;
+using LojasMoveis.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LojasMoveis.Controllers
@@ -13,8 +14,14 @@ namespace LojasMoveis.Controllers
 
         public IActionResult List()
         {
-            var moveis = _movelRepository.Moveis;
-            return View(moveis);
+            // var moveis = _movelRepository.Moveis;
+            // return View(moveis);
+
+            var moveisListViewModel = new MovelListViewModel();
+            moveisListViewModel.Moveis = _movelRepository.Moveis;
+            moveisListViewModel.CategoriaAtual = "Categoria Atual";
+
+            return View(moveisListViewModel);
         }
     }
 }
