@@ -1,4 +1,5 @@
 ﻿using LojasMoveis.Context;
+using LojasMoveis.Models;
 using LojasMoveis.Repositories;
 using LojasMoveis.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -21,6 +22,7 @@ public class Startup
         services.AddTransient<IMovelRepository, MovelRepository>();
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         services.AddSingleton<IHttpContextAccessor,HttpContextAccessor>();
+        services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
         services.AddControllersWithViews();
 

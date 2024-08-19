@@ -1,3 +1,14 @@
-﻿<!--<h1>View Index</h1>-->
+﻿@model HomeViewModel
 
 <partial name ="_Carousel"/>
+
+<h2>Os preferidos da semana</h2>
+<h4>Explore nossa seleção de móveis favoritos desta semana, escolhidos com atenção para você.</h4>
+
+<div class="row">
+    @foreach(var movel in Model.MoveisPreferidos)
+    {
+        <partial name="_MoveisResumo" for="@movel"/>
+    }
+
+</div>

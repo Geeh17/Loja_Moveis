@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u/OA48mQg73oQoadxKS/C3TXGN9CTKwy48YfLd6LxVo=",
+  "Hash": "GcNZ+byxWSJpIfXh+nsohfp2IRI+/mRPc3S4pAKdW44=",
   "Source": "LojasMoveis",
   "BasePath": "_content/LojasMoveis",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\delete.png",
+      "SourceId": "LojasMoveis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\",
+      "BasePath": "_content/LojasMoveis",
+      "RelativePath": "img/delete.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\delete.png"
+    },
+    {
+      "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\Full-Cart-icon.png",
+      "SourceId": "LojasMoveis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\",
+      "BasePath": "_content/LojasMoveis",
+      "RelativePath": "img/Full-Cart-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Full-Cart-icon.png"
     },
     {
       "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\img1.jpg",
@@ -270,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\produtos\\moveis-sustentavel.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\remove.ico",
+      "SourceId": "LojasMoveis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\",
+      "BasePath": "_content/LojasMoveis",
+      "RelativePath": "img/remove.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\remove.ico"
     },
     {
       "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\js\\site.js",
