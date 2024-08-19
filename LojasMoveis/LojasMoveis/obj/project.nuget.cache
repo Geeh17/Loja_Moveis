@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wDnV2vGKtHhsa3sVEy/XsBykhsSOut59ygzlkUHoPu0P6Bv2WB19QJak/KC2Xf17/Vu8kkoaADSKOB389mbr3g==",
+  "dgSpecHash": "kO4DhvzXEP41n9UFWqKsl6VnZDPKlpfdXKvoRD10aTSx5CKqjgS5c6CxUSzFExZt3/EKwkeOYDcsjiPI3Y/QHQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\LojasMoveis.csproj",
   "expectedPackageFiles": [
@@ -80,7 +80,7 @@
     "C:\\Users\\Geeêh Luis\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.32\\microsoft.entityframeworkcore.design.6.0.32.nupkg.sha512",
     "C:\\Users\\Geeêh Luis\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.32\\microsoft.entityframeworkcore.relational.6.0.32.nupkg.sha512",
     "C:\\Users\\Geeêh Luis\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.0\\microsoft.entityframeworkcore.sqlserver.6.0.0.nupkg.sha512",
-    "C:\\Users\\Geeêh Luis\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.0\\microsoft.entityframeworkcore.tools.6.0.0.nupkg.sha512",
+    "C:\\Users\\Geeêh Luis\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.32\\microsoft.entityframeworkcore.tools.6.0.32.nupkg.sha512",
     "C:\\Users\\Geeêh Luis\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Geeêh Luis\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\Geeêh Luis\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

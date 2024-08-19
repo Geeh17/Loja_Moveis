@@ -11,5 +11,7 @@ namespace LojasMoveis.Context
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Movel> Moveis { get; set; }
 
+        public DbSet<CarrinhoCompraItem> CarrinhoCompraItens { get; set; }
+
     }
 }

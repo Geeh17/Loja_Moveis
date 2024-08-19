@@ -1313,10 +1313,10 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/6.0.0": {
+      "Microsoft.EntityFrameworkCore.Tools/6.0.32": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "6.0.0"
+          "Microsoft.EntityFrameworkCore.Design": "6.0.32"
         },
         "compile": {
           "lib/net6.0/_._": {}
@@ -5128,17 +5128,17 @@
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Tools/6.0.0": {
-      "sha512": "m9e6nFnkyRdKcrTFO8rl3ZihCIKrYdECw+fHZVbKz6TBMwKhih/N0sjPnNt0k7sZPvI8izKPkh1d+z4OR2qgXQ==",
+    "Microsoft.EntityFrameworkCore.Tools/6.0.32": {
+      "sha512": "sXOfcLzaZI1gBC6AVDz+XUUt+Hoh42spdESHMXlq7Zo9sZcffkma16aKomBop5ZI+18g1ghQ1Mufqjj4iiMIuA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/6.0.0",
+      "path": "microsoft.entityframeworkcore.tools/6.0.32",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/_._",
-        "microsoft.entityframeworkcore.tools.6.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.6.0.32.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
         "tools/EntityFrameworkCore.PS2.psd1",
         "tools/EntityFrameworkCore.PS2.psm1",
@@ -5147,6 +5147,7 @@
         "tools/about_EntityFrameworkCore.help.txt",
         "tools/init.ps1",
         "tools/net461/any/ef.exe",
+        "tools/net461/win-arm64/ef.exe",
         "tools/net461/win-x86/ef.exe",
         "tools/netcoreapp2.0/any/ef.dll",
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
@@ -10315,7 +10316,7 @@
       "Microsoft.EntityFrameworkCore >= 6.0.32",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.32",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.0",
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.32",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.17"
     ]
   },
@@ -10382,7 +10383,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[6.0.0, )"
+            "version": "[6.0.32, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
