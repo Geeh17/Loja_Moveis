@@ -1,4 +1,5 @@
-﻿using LojasMoveis.Repositories.Interfaces;
+﻿using LojasMoveis.Models;
+using LojasMoveis.Repositories.Interfaces;
 using LojasMoveis.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,14 +13,38 @@ namespace LojasMoveis.Controllers
             _movelRepository = movelRepository;
         }
 
-        public IActionResult List()
+        public IActionResult List(string categoria)
         {
-            // var moveis = _movelRepository.Moveis;
-            // return View(moveis);
+            IEnumerable<Movel> moveis;
+            string categoriaAtual = string.Empty;
+            if (string.IsNullOrEmpty(categoria))
+            {
+                moveis = _movelRepository.Moveis.OrderBy(l => l.MovelId);
+                categoriaAtual = "Todos os móveis";
+            }
+            else
+            {
+                if (string.Equals("planejados", categoria, StringComparison.OrdinalIgnoreCase))
+                {
+                    moveis = _movelRepository.Moveis
+                        .Where(l => l.Categoria.CategoriaNome.Equals("planejados"))
+                        .OrderBy(l => l.Nome);
+                }
+                else
+                {
+                    moveis = _movelRepository.Moveis
+                      .Where(l => l.Categoria.CategoriaNome.Equals("escritório"))
+                      .OrderBy(l => l.Nome);
+                }
+                categoriaAtual = categoria;
 
-            var moveisListViewModel = new MovelListViewModel();
-            moveisListViewModel.Moveis = _movelRepository.Moveis;
-            moveisListViewModel.CategoriaAtual = "Categoria Atual";
+            }
+
+            var moveisListViewModel = new MovelListViewModel
+            {
+                Moveis = moveis,
+                CategoriaAtual = categoriaAtual
+            };
 
             return View(moveisListViewModel);
         }

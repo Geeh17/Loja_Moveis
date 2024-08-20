@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GcNZ+byxWSJpIfXh+nsohfp2IRI+/mRPc3S4pAKdW44=",
+  "Hash": "9L1W9mbupnaV4mw1JvsC2H4/Ea62e9CPL5YcQe4r3mk=",
   "Source": "LojasMoveis",
   "BasePath": "_content/LojasMoveis",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LojasMoveis.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\css\\carrousel.css",
+      "SourceId": "LojasMoveis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\",
+      "BasePath": "_content/LojasMoveis",
+      "RelativePath": "css/carrousel.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\carrousel.css"
+    },
+    {
       "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\css\\site.css",
       "SourceId": "LojasMoveis",
       "SourceType": "Discovered",
@@ -85,6 +102,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\cart-5-16.ico",
+      "SourceId": "LojasMoveis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\",
+      "BasePath": "_content/LojasMoveis",
+      "RelativePath": "img/cart-5-16.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cart-5-16.ico"
+    },
+    {
       "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\delete.png",
       "SourceId": "LojasMoveis",
       "SourceType": "Discovered",
@@ -102,6 +136,40 @@
       "OriginalItemSpec": "wwwroot\\img\\delete.png"
     },
     {
+      "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\Envelope-icon24.png",
+      "SourceId": "LojasMoveis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\",
+      "BasePath": "_content/LojasMoveis",
+      "RelativePath": "img/Envelope-icon24.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Envelope-icon24.png"
+    },
+    {
+      "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\faleconosco1.jpg",
+      "SourceId": "LojasMoveis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\",
+      "BasePath": "_content/LojasMoveis",
+      "RelativePath": "img/faleconosco1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\faleconosco1.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\Full-Cart-icon.png",
       "SourceId": "LojasMoveis",
       "SourceType": "Discovered",
@@ -117,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Full-Cart-icon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\Home-iconred.png",
+      "SourceId": "LojasMoveis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\",
+      "BasePath": "_content/LojasMoveis",
+      "RelativePath": "img/Home-iconred.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Home-iconred.png"
     },
     {
       "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\img1.jpg",
@@ -168,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\img3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\phone-app-icon.png",
+      "SourceId": "LojasMoveis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\",
+      "BasePath": "_content/LojasMoveis",
+      "RelativePath": "img/phone-app-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\phone-app-icon.png"
     },
     {
       "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\produtos\\moveis-escritorio.jpg",
