@@ -10,7 +10,8 @@ namespace LojasMoveis.Controllers
         private readonly IMovelRepository _movelRepository;
         private readonly CarrinhoCompra _carrinhoCompra;
 
-        public CarrinhoCompraController(IMovelRepository movelRepository, CarrinhoCompra carrinhoCompra)
+        public CarrinhoCompraController(IMovelRepository movelRepository,
+            CarrinhoCompra carrinhoCompra)
         {
             _movelRepository = movelRepository;
             _carrinhoCompra = carrinhoCompra;
@@ -29,20 +30,23 @@ namespace LojasMoveis.Controllers
 
             return View(carrinhoCompraVM);
         }
-
-        public IActionResult AdicionarItemNoCarrinhoCompra(int movelID)
+        public IActionResult AdicionarItemNoCarrinhoCompra(int movelId)
         {
-            var movelSelecionado = _movelRepository.Moveis.FirstOrDefault(p => p.MovelId == movelID);
-            if(movelSelecionado != null)
+            var movelSelecionado = _movelRepository.Moveis
+                                    .FirstOrDefault(p => p.MovelId == movelId);
+
+            if (movelSelecionado != null)
             {
                 _carrinhoCompra.AdicionarAoCarrinho(movelSelecionado);
             }
             return RedirectToAction("Index");
         }
 
-        public IActionResult RemoverItemNoCarrinhoCompra(int movelID)
+        public IActionResult RemoverItemDoCarrinhoCompra(int movelId)
         {
-            var movelSelecionado = _movelRepository.Moveis.FirstOrDefault(p => p.MovelId == movelID);
+            var movelSelecionado = _movelRepository.Moveis
+                                    .FirstOrDefault(p => p.MovelId == movelId);
+
             if (movelSelecionado != null)
             {
                 _carrinhoCompra.RemoverDoCarrinho(movelSelecionado);

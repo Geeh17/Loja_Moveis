@@ -17,6 +17,7 @@ namespace LojasMoveis.Controllers
         {
             IEnumerable<Movel> moveis;
             string categoriaAtual = string.Empty;
+
             if (string.IsNullOrEmpty(categoria))
             {
                 moveis = _movelRepository.Moveis.OrderBy(l => l.MovelId);
@@ -24,20 +25,11 @@ namespace LojasMoveis.Controllers
             }
             else
             {
-                if (string.Equals("planejados", categoria, StringComparison.OrdinalIgnoreCase))
-                {
-                    moveis = _movelRepository.Moveis
-                        .Where(l => l.Categoria.CategoriaNome.Equals("planejados"))
-                        .OrderBy(l => l.Nome);
-                }
-                else
-                {
-                    moveis = _movelRepository.Moveis
-                      .Where(l => l.Categoria.CategoriaNome.Equals("escritório"))
-                      .OrderBy(l => l.Nome);
-                }
-                categoriaAtual = categoria;
+                moveis = _movelRepository.Moveis
+                    .Where(l => l.Categoria.CategoriaNome.Equals(categoria, StringComparison.OrdinalIgnoreCase))
+                    .OrderBy(l => l.Nome);
 
+                categoriaAtual = categoria;
             }
 
             var moveisListViewModel = new MovelListViewModel
@@ -48,5 +40,12 @@ namespace LojasMoveis.Controllers
 
             return View(moveisListViewModel);
         }
+
+        public IActionResult Details(int movelId)
+        {
+            var movel = _movelRepository.Moveis.FirstOrDefault(l => l.MovelId == movelId);
+            return View(movel);
+        }
+
     }
 }
