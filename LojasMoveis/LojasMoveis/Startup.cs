@@ -1,4 +1,5 @@
-﻿using LojasMoveis.Context;
+﻿using LanchesMac.Repositories;
+using LojasMoveis.Context;
 using LojasMoveis.Models;
 using LojasMoveis.Repositories;
 using LojasMoveis.Repositories.Interfaces;
@@ -21,6 +22,7 @@ public class Startup
         options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         services.AddTransient<IMovelRepository, MovelRepository>();
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
+        services.AddTransient<IPedidoRepository, PedidoRepository>();
         services.AddSingleton<IHttpContextAccessor,HttpContextAccessor>();
         services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
