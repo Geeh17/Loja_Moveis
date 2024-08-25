@@ -2,7 +2,7 @@
 using LojasMoveis.Models;
 using LojasMoveis.Repositories.Interfaces;
 
-namespace LanchesMac.Repositories
+namespace LojasMoveis.Repositories
 {
     public class PedidoRepository : IPedidoRepository
     {
@@ -21,7 +21,7 @@ namespace LanchesMac.Repositories
             pedido.PedidoEnviado = DateTime.Now;
             _appDbContext.Pedidos.Add(pedido);
             _appDbContext.SaveChanges();
-
+            
             var carrinhoCompraItens = _carrinhoCompra.CarrinhoCompraItens;
 
             foreach (var carrinhoItem in carrinhoCompraItens)
@@ -29,7 +29,7 @@ namespace LanchesMac.Repositories
                 var pedidoDetail = new PedidoDetalhe()
                 {
                     Quantidade = carrinhoItem.Quantidade,
-                    LancheId = carrinhoItem.Movel.MovelId,
+                    MovelId = carrinhoItem.Movel.MovelId,
                     PedidoId = pedido.PedidoId,
                     Preco = carrinhoItem.Movel.Preco
                 };

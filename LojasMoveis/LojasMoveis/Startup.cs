@@ -1,5 +1,4 @@
-﻿using LanchesMac.Repositories;
-using LojasMoveis.Context;
+﻿using LojasMoveis.Context;
 using LojasMoveis.Models;
 using LojasMoveis.Repositories;
 using LojasMoveis.Repositories.Interfaces;

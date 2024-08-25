@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LojasMoveis.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240818161832_CarrinhoCompraItem")]
-    partial class CarrinhoCompraItem
+    [Migration("20240824212503_MigracaoInicial")]
+    partial class MigracaoInicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -122,6 +122,102 @@ namespace LojasMoveis.Migrations
                     b.ToTable("Moveis");
                 });
 
+            modelBuilder.Entity("LojasMoveis.Models.Pedido", b =>
+                {
+                    b.Property<int>("PedidoId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PedidoId"), 1L, 1);
+
+                    b.Property<string>("Cep")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("Cidade")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Endereco1")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Endereco2")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("Estado")
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<DateTime?>("PedidoEntregueEm")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("PedidoEnviado")
+                        .HasColumnType("datetime2");
+
+                    b.Property<decimal>("PedidoTotal")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Sobrenome")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasMaxLength(25)
+                        .HasColumnType("nvarchar(25)");
+
+                    b.Property<int>("TotalItensPedido")
+                        .HasColumnType("int");
+
+                    b.HasKey("PedidoId");
+
+                    b.ToTable("Pedidos");
+                });
+
+            modelBuilder.Entity("LojasMoveis.Models.PedidoDetalhe", b =>
+                {
+                    b.Property<int>("PedidoDetalheId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PedidoDetalheId"), 1L, 1);
+
+                    b.Property<int>("MovelId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PedidoId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Preco")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("Quantidade")
+                        .HasColumnType("int");
+
+                    b.HasKey("PedidoDetalheId");
+
+                    b.HasIndex("MovelId");
+
+                    b.HasIndex("PedidoId");
+
+                    b.ToTable("PedidoDetalhes");
+                });
+
             modelBuilder.Entity("LojasMoveis.Models.CarrinhoCompraItem", b =>
                 {
                     b.HasOne("LojasMoveis.Models.Movel", "Movel")
@@ -142,9 +238,33 @@ namespace LojasMoveis.Migrations
                     b.Navigation("Categoria");
                 });
 
+            modelBuilder.Entity("LojasMoveis.Models.PedidoDetalhe", b =>
+                {
+                    b.HasOne("LojasMoveis.Models.Movel", "Movel")
+                        .WithMany()
+                        .HasForeignKey("MovelId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("LojasMoveis.Models.Pedido", "Pedido")
+                        .WithMany("PedidoItens")
+                        .HasForeignKey("PedidoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Movel");
+
+                    b.Navigation("Pedido");
+                });
+
             modelBuilder.Entity("LojasMoveis.Models.Categoria", b =>
                 {
                     b.Navigation("Moveis");
+                });
+
+            modelBuilder.Entity("LojasMoveis.Models.Pedido", b =>
+                {
+                    b.Navigation("PedidoItens");
                 });
 #pragma warning restore 612, 618
         }

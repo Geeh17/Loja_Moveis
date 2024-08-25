@@ -195,10 +195,7 @@ namespace LojasMoveis.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PedidoDetalheId"), 1L, 1);
 
-                    b.Property<int>("LancheId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("MovelId")
+                    b.Property<int>("MovelId")
                         .HasColumnType("int");
 
                     b.Property<int>("PedidoId")
@@ -243,7 +240,9 @@ namespace LojasMoveis.Migrations
                 {
                     b.HasOne("LojasMoveis.Models.Movel", "Movel")
                         .WithMany()
-                        .HasForeignKey("MovelId");
+                        .HasForeignKey("MovelId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("LojasMoveis.Models.Pedido", "Pedido")
                         .WithMany("PedidoItens")
