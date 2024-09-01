@@ -1,6 +1,7 @@
 ﻿using LojasMoveis.Models;
 using LojasMoveis.Repositories.Interfaces;
 using LojasMoveis.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LojasMoveis.Controllers
@@ -30,6 +31,8 @@ namespace LojasMoveis.Controllers
 
             return View(carrinhoCompraVM);
         }
+
+        [Authorize]
         public IActionResult AdicionarItemNoCarrinhoCompra(int movelId)
         {
             var movelSelecionado = _movelRepository.Moveis
@@ -42,6 +45,7 @@ namespace LojasMoveis.Controllers
             return RedirectToAction("Index");
         }
 
+        [Authorize]
         public IActionResult RemoverItemDoCarrinhoCompra(int movelId)
         {
             var movelSelecionado = _movelRepository.Moveis

@@ -1,5 +1,6 @@
 ﻿using LojasMoveis.Models;
 using LojasMoveis.Repositories.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LojasMoveis.Controllers
@@ -15,12 +16,14 @@ namespace LojasMoveis.Controllers
             _carrinhoCompra = carrinhoCompra;
         }
 
+        [Authorize]
         [HttpGet]
         public IActionResult Checkout()
         {
             return View();
         }
 
+        [Authorize]
         [HttpPost]
         public IActionResult Checkout(Pedido pedido)
         {
