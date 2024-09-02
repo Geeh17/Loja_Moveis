@@ -93,6 +93,11 @@ namespace LojasMoveis.Controllers
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");
         }
+
+        public IActionResult AccessDenid()
+        {
+            return View();
+        }
     }
 }
 

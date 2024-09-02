@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vXKjgCTNY/VAFrEP7eDj5wSCswdkeGfVFwwhMqrOMro=",
+  "Hash": "XSe5WlG5qea/zrMLlwQMqJErEPqtLzQKKAFmG7OIn1g=",
   "Source": "LojasMoveis",
   "BasePath": "_content/LojasMoveis",
   "Mode": "Default",
@@ -287,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\login_48.png"
+    },
+    {
+      "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\negado1.jpg",
+      "SourceId": "LojasMoveis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\",
+      "BasePath": "_content/LojasMoveis",
+      "RelativePath": "img/negado1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\negado1.jpg"
     },
     {
       "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\phone-app-icon.png",

@@ -11,6 +11,24 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Areas\Admin\Views\AdminCategorias\Create.cshtml" />
+    <None Include="Areas\Admin\Views\AdminCategorias\Delete.cshtml" />
+    <None Include="Areas\Admin\Views\AdminCategorias\Details.cshtml" />
+    <None Include="Areas\Admin\Views\AdminCategorias\Edit.cshtml" />
+    <None Include="Areas\Admin\Views\AdminCategorias\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminMoveis\Create.cshtml" />
+    <None Include="Areas\Admin\Views\AdminMoveis\Delete.cshtml" />
+    <None Include="Areas\Admin\Views\AdminMoveis\Details.cshtml" />
+    <None Include="Areas\Admin\Views\AdminMoveis\Edit.cshtml" />
+    <None Include="Areas\Admin\Views\AdminMoveis\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminPedidos\Create.cshtml" />
+    <None Include="Areas\Admin\Views\AdminPedidos\Delete.cshtml" />
+    <None Include="Areas\Admin\Views\AdminPedidos\Details.cshtml" />
+    <None Include="Areas\Admin\Views\AdminPedidos\Edit.cshtml" />
+    <None Include="Areas\Admin\Views\AdminPedidos\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.32" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.32">
@@ -23,10 +41,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.17" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
   </ItemGroup>
 
 </Project>
