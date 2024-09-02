@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j+qOdd73yJTz/IwJhkMI/ArVvT+BhU6ftJ36DCLGRgM=",
+  "Hash": "vXKjgCTNY/VAFrEP7eDj5wSCswdkeGfVFwwhMqrOMro=",
   "Source": "LojasMoveis",
   "BasePath": "_content/LojasMoveis",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\adminarea.jpg",
+      "SourceId": "LojasMoveis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\",
+      "BasePath": "_content/LojasMoveis",
+      "RelativePath": "img/adminarea.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\adminarea.jpg"
     },
     {
       "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\cart-5-16.ico",
