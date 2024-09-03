@@ -11,7 +11,7 @@ build_property.RootNamespace = LojasMoveis
 build_property.ProjectDir = C:\Users\Geeêh Luis\Desktop\Projetos Pessoais\LojaMoveis\LojasMoveis\LojasMoveis\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Geeêh Luis\Desktop\Projetos Pessoais\LojaMoveis\LojasMoveis\LojasMoveis
 build_property._RazorSourceGeneratorDebug = 
 

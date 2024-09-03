@@ -36,7 +36,7 @@ namespace LojasMoveis.Areas.Admin.Controllers
             if (categoria == null)
             {
                 return NotFound();
-            }
+            }        
 
             return View(categoria);
         }
