@@ -1,10 +1,13 @@
-﻿using LojasMoveis.Context;
+﻿using LojasMoveis.Areas.Admin.Servicos;
+using LojasMoveis.Context;
 using LojasMoveis.Models;
 using LojasMoveis.Repositories;
 using LojasMoveis.Repositories.Interfaces;
 using LojasMoveis.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using ReflectionIT.Mvc.Paging;
+
 
 namespace LojasMoveis;
 public class Startup
@@ -40,6 +43,7 @@ public class Startup
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         services.AddTransient<IPedidoRepository, PedidoRepository>();
         services.AddScoped<ISeedUserRoleInitial,SeedUserRoleInitial>();
+        services.AddScoped<RelatorioVendasService>();
 
         services.AddAuthorization(options =>
         {

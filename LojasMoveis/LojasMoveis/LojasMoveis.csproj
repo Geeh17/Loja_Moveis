@@ -26,6 +26,8 @@
     <None Include="Areas\Admin\Views\AdminPedidos\Details.cshtml" />
     <None Include="Areas\Admin\Views\AdminPedidos\Edit.cshtml" />
     <None Include="Areas\Admin\Views\AdminPedidos\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminRelatorioVendas\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminRelatorioVendas\RelatorioVendasSimples.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
