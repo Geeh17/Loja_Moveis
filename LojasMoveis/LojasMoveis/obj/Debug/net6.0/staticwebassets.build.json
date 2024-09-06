@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XSe5WlG5qea/zrMLlwQMqJErEPqtLzQKKAFmG7OIn1g=",
+  "Hash": "Rlv0/P+khGbKFcC8aGowAwpXwEeObk1xUQIlfuG9lJs=",
   "Source": "LojasMoveis",
   "BasePath": "_content/LojasMoveis",
   "Mode": "Default",
@@ -168,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Envelope-icon24.png"
+    },
+    {
+      "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\erro1.png",
+      "SourceId": "LojasMoveis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\",
+      "BasePath": "_content/LojasMoveis",
+      "RelativePath": "img/erro1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\erro1.png"
     },
     {
       "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\faleconosco1.jpg",
@@ -542,6 +559,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\remove.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\upload2.png",
+      "SourceId": "LojasMoveis",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\",
+      "BasePath": "_content/LojasMoveis",
+      "RelativePath": "img/upload2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\upload2.png"
     },
     {
       "Identity": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\js\\site.js",

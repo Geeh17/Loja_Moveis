@@ -16,6 +16,9 @@
     <None Include="Areas\Admin\Views\AdminCategorias\Details.cshtml" />
     <None Include="Areas\Admin\Views\AdminCategorias\Edit.cshtml" />
     <None Include="Areas\Admin\Views\AdminCategorias\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminImagens\GetImagens.cshtml" />
+    <None Include="Areas\Admin\Views\AdminImagens\Index.cshtml" />
+    <None Include="Areas\Admin\Views\AdminImagens\UploadFiles.cshtml" />
     <None Include="Areas\Admin\Views\AdminMoveis\Create.cshtml" />
     <None Include="Areas\Admin\Views\AdminMoveis\Delete.cshtml" />
     <None Include="Areas\Admin\Views\AdminMoveis\Details.cshtml" />

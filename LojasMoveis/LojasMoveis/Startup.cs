@@ -4,6 +4,7 @@ using LojasMoveis.Models;
 using LojasMoveis.Repositories;
 using LojasMoveis.Repositories.Interfaces;
 using LojasMoveis.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ReflectionIT.Mvc.Paging;
@@ -28,16 +29,8 @@ public class Startup
              .AddEntityFrameworkStores<AppDbContext>()
              .AddDefaultTokenProviders();
 
-        //services.Configure<IdentityOptions>(options =>
-        //{
-        //    // Default Password settings.
-        //    options.Password.RequireDigit = false;
-        //    options.Password.RequireLowercase = false;
-        //    options.Password.RequireNonAlphanumeric = false;
-        //    options.Password.RequireUppercase = false;
-        //    options.Password.RequiredLength = 3;
-        //    options.Password.RequiredUniqueChars = 1;
-        //});
+       
+        services.Configure<ConfigurationImagens>(Configuration.GetSection("ConfigurationPastaImagens"));
 
         services.AddTransient<IMovelRepository, MovelRepository>();
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
@@ -87,10 +80,12 @@ public class Startup
         app.UseStaticFiles();
         app.UseRouting();
 
+
         seedUserRoleInitial.SeedRoles();
         seedUserRoleInitial.SeedUsers();
 
         app.UseSession();
+
 
         app.UseAuthentication();
         app.UseAuthorization();
