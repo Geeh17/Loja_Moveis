@@ -1,0 +1,385 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LojasMoveis.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LojasMoveis.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\css\\carrousel.css",
+      "PackagePath": "staticwebassets\\css\\carrousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\Envelope-icon24.png",
+      "PackagePath": "staticwebassets\\img\\Envelope-icon24.png"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\Full-Cart-icon.png",
+      "PackagePath": "staticwebassets\\img\\Full-Cart-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\Home-iconred.png",
+      "PackagePath": "staticwebassets\\img\\Home-iconred.png"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\adminarea.jpg",
+      "PackagePath": "staticwebassets\\img\\adminarea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\cart-5-16.ico",
+      "PackagePath": "staticwebassets\\img\\cart-5-16.ico"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\delete.png",
+      "PackagePath": "staticwebassets\\img\\delete.png"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\erro1.png",
+      "PackagePath": "staticwebassets\\img\\erro1.png"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\faleconosco1.jpg",
+      "PackagePath": "staticwebassets\\img\\faleconosco1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\img1.jpg",
+      "PackagePath": "staticwebassets\\img\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\img2.jpg",
+      "PackagePath": "staticwebassets\\img\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\img3.jpg",
+      "PackagePath": "staticwebassets\\img\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\login_48.png",
+      "PackagePath": "staticwebassets\\img\\login_48.png"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\negado1.jpg",
+      "PackagePath": "staticwebassets\\img\\negado1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\phone-app-icon.png",
+      "PackagePath": "staticwebassets\\img\\phone-app-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\produtos\\estante.jpg",
+      "PackagePath": "staticwebassets\\img\\produtos\\estante.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\produtos\\guardaRoupa.jpg",
+      "PackagePath": "staticwebassets\\img\\produtos\\guardaRoupa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\produtos\\mesadeJantar.jpg",
+      "PackagePath": "staticwebassets\\img\\produtos\\mesadeJantar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\produtos\\moveis-escritorio.jpg",
+      "PackagePath": "staticwebassets\\img\\produtos\\moveis-escritorio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\produtos\\moveis-luxo.jpg",
+      "PackagePath": "staticwebassets\\img\\produtos\\moveis-luxo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\produtos\\moveis-modulares.jpg",
+      "PackagePath": "staticwebassets\\img\\produtos\\moveis-modulares.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\produtos\\moveis-planejados.jpg",
+      "PackagePath": "staticwebassets\\img\\produtos\\moveis-planejados.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\produtos\\moveis-residencias.jpg",
+      "PackagePath": "staticwebassets\\img\\produtos\\moveis-residencias.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\produtos\\moveis-retro.jpg",
+      "PackagePath": "staticwebassets\\img\\produtos\\moveis-retro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\produtos\\moveis-rusticos.jpg",
+      "PackagePath": "staticwebassets\\img\\produtos\\moveis-rusticos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\produtos\\moveis-sustentavel.jpg",
+      "PackagePath": "staticwebassets\\img\\produtos\\moveis-sustentavel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\register.png",
+      "PackagePath": "staticwebassets\\img\\register.png"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\remove.ico",
+      "PackagePath": "staticwebassets\\img\\remove.ico"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\upload2.png",
+      "PackagePath": "staticwebassets\\img\\upload2.png"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\img\\visualizar1.jpg",
+      "PackagePath": "staticwebassets\\img\\visualizar1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Geeêh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.LojasMoveis.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.LojasMoveis.props",
+      "PackagePath": "build\\LojasMoveis.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.LojasMoveis.props",
+      "PackagePath": "buildMultiTargeting\\LojasMoveis.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.LojasMoveis.props",
+      "PackagePath": "buildTransitive\\LojasMoveis.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

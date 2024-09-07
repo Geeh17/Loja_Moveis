@@ -5,10 +5,13 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LojasMoveis
 build_property.RootNamespace = LojasMoveis
 build_property.ProjectDir = C:\Users\Geeêh Luis\Desktop\Projetos Pessoais\LojaMoveis\LojasMoveis\LojasMoveis\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
@@ -33,6 +36,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Geeêh Luis/Desktop/Projetos Pessoais/LojaMoveis/LojasMoveis/LojasMoveis/Areas/Admin/Views/AdminCategorias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yaWFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Geeêh Luis/Desktop/Projetos Pessoais/LojaMoveis/LojasMoveis/LojasMoveis/Areas/Admin/Views/AdminGrafico/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5HcmFmaWNvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Geeêh Luis/Desktop/Projetos Pessoais/LojaMoveis/LojasMoveis/LojasMoveis/Areas/Admin/Views/AdminGrafico/VendasMensal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5HcmFmaWNvXFZlbmRhc01lbnNhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Geeêh Luis/Desktop/Projetos Pessoais/LojaMoveis/LojasMoveis/LojasMoveis/Areas/Admin/Views/AdminGrafico/VendasSemanal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5HcmFmaWNvXFZlbmRhc1NlbWFuYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Geeêh Luis/Desktop/Projetos Pessoais/LojaMoveis/LojasMoveis/LojasMoveis/Areas/Admin/Views/AdminImagens/GetImagens.cshtml]
@@ -173,6 +188,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Geeêh Luis/Desktop/Projetos Pessoais/LojaMoveis/LojasMoveis/LojasMoveis/Views/Shared/_Carousel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJvdXNlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Geeêh Luis/Desktop/Projetos Pessoais/LojaMoveis/LojasMoveis/LojasMoveis/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Geeêh Luis/Desktop/Projetos Pessoais/LojaMoveis/LojasMoveis/LojasMoveis/Views/Shared/_LoginPartial.cshtml]

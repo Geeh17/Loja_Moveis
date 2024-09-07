@@ -37,6 +37,8 @@ public class Startup
         services.AddTransient<IPedidoRepository, PedidoRepository>();
         services.AddScoped<ISeedUserRoleInitial,SeedUserRoleInitial>();
         services.AddScoped<RelatorioVendasService>();
+        services.AddScoped<GraficoVendasService>();
+
 
         services.AddAuthorization(options =>
         {
@@ -53,14 +55,8 @@ public class Startup
         services.AddControllersWithViews();
 
         services.AddMemoryCache();
-        //services.AddDistributedMemoryCache();
 
-        services.AddSession();
-        //{
-        //    options.IdleTimeout = TimeSpan.FromSeconds(10);
-        //    options.Cookie.HttpOnly = true;
-        //    options.Cookie.IsEssential = true;
-        //});
+        services.AddSession();       
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env,
