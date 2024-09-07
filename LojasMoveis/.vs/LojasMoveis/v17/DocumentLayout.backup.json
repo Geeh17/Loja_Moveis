@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|c:\\users\\gee\u00EAh luis\\desktop\\projetos pessoais\\lojamoveis\\lojasmoveis\\lojasmoveis\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|solutionrelative:lojasmoveis\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|c:\\users\\gee\u00EAh luis\\desktop\\projetos pessoais\\lojamoveis\\lojasmoveis\\lojasmoveis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|solutionrelative:lojasmoveis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "LojasMoveis\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "LojasMoveis\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-07T02:14:20.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Program.cs",
-              "RelativeDocumentMoniker": "LojasMoveis\\Program.cs",
-              "ToolTip": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Program.cs",
-              "RelativeToolTip": "LojasMoveis\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T02:07:07.271Z",
-              "EditorCaption": ""
             }
           ]
         }

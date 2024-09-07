@@ -1,0 +1,30 @@
+﻿.carousel-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; /* Ajusta a imagem para cobrir o container de forma proporcional */
+    border-radius: 10px; /* Bordas arredondadas para um visual mais suave */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para ícones de navegação */
+    border-radius: 50%; /* Ícones circulares */
+    padding: 10px; /* Espaçamento interno para os ícones */
+}
+
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+        background-color: rgba(0, 0, 0, 0.7); /* Fundo mais escuro ao passar o mouse */
+    }
+
+.carousel-indicators [data-bs-target] {
+    background-color: rgba(0, 0, 0, 0.5); /* Indicadores com fundo semitransparente */
+    border-radius: 50%; /* Indicadores circulares */
+    width: 10px; /* Largura do indicador */
+    height: 10px; /* Altura do indicador */
+}
+
+    .carousel-indicators [data-bs-target].active {
+        background-color: rgba(255, 255, 255, 0.9); /* Indicador ativo com cor diferente */
+    }

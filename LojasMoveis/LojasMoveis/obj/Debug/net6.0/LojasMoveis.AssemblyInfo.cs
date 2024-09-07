@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LojasMoveis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2ad0f8a1c9a070bb23bac64b58ad93437db4578")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54d946fd607b023115c68628ab75ddb32c47c60c")]
 [assembly: System.Reflection.AssemblyProductAttribute("LojasMoveis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LojasMoveis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
