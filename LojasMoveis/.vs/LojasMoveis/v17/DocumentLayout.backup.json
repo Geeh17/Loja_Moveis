@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|c:\\users\\gee\u00EAh luis\\desktop\\projetos pessoais\\lojamoveis\\lojasmoveis\\lojasmoveis\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|solutionrelative:lojasmoveis\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|c:\\users\\gee\u00EAh luis\\desktop\\projetos pessoais\\lojamoveis\\lojasmoveis\\lojasmoveis\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|solutionrelative:lojasmoveis\\areas\\admin\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|c:\\users\\gee\u00EAh luis\\desktop\\projetos pessoais\\lojamoveis\\lojasmoveis\\lojasmoveis\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|solutionrelative:lojasmoveis\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|c:\\users\\gee\u00EAh luis\\desktop\\projetos pessoais\\lojamoveis\\lojasmoveis\\lojasmoveis\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|solutionrelative:lojasmoveis\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|c:\\users\\gee\u00EAh luis\\desktop\\projetos pessoais\\lojamoveis\\lojasmoveis\\lojasmoveis\\areas\\admin\\views\\admingrafico\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|solutionrelative:lojasmoveis\\areas\\admin\\views\\admingrafico\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|c:\\users\\gee\u00EAh luis\\desktop\\projetos pessoais\\lojamoveis\\lojasmoveis\\lojasmoveis\\areas\\admin\\views\\admingrafico\\vendasmensal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|solutionrelative:lojasmoveis\\areas\\admin\\views\\admingrafico\\vendasmensal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|c:\\users\\gee\u00EAh luis\\desktop\\projetos pessoais\\lojamoveis\\lojasmoveis\\lojasmoveis\\areas\\admin\\views\\admingrafico\\vendassemanal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|solutionrelative:lojasmoveis\\areas\\admin\\views\\admingrafico\\vendassemanal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|c:\\users\\gee\u00EAh luis\\desktop\\projetos pessoais\\lojamoveis\\lojasmoveis\\lojasmoveis\\areas\\admin\\servicos\\graficovendasservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|solutionrelative:lojasmoveis\\areas\\admin\\servicos\\graficovendasservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|c:\\users\\gee\u00EAh luis\\desktop\\projetos pessoais\\lojamoveis\\lojasmoveis\\lojasmoveis\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|solutionrelative:lojasmoveis\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|c:\\users\\gee\u00EAh luis\\desktop\\projetos pessoais\\lojamoveis\\lojasmoveis\\lojasmoveis\\areas\\admin\\servicos\\relatoriovendasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|solutionrelative:lojasmoveis\\areas\\admin\\servicos\\relatoriovendasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|c:\\users\\gee\u00EAh luis\\desktop\\projetos pessoais\\lojamoveis\\lojasmoveis\\lojasmoveis\\models\\movelgrafico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|solutionrelative:lojasmoveis\\models\\movelgrafico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|c:\\users\\gee\u00EAh luis\\desktop\\projetos pessoais\\lojamoveis\\lojasmoveis\\lojasmoveis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E08DD7A-2AF8-45F3-A34E-3C3389EF1777}|LojasMoveis\\LojasMoveis.csproj|solutionrelative:lojasmoveis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,131 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "LojasMoveis\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "LojasMoveis\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T23:35:55.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Views\\AdminGrafico\\Index.cshtml",
-              "RelativeDocumentMoniker": "LojasMoveis\\Areas\\Admin\\Views\\AdminGrafico\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Views\\AdminGrafico\\Index.cshtml",
-              "RelativeToolTip": "LojasMoveis\\Areas\\Admin\\Views\\AdminGrafico\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "LojasMoveis\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "LojasMoveis\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T23:17:29.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VendasMensal.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Views\\AdminGrafico\\VendasMensal.cshtml",
-              "RelativeDocumentMoniker": "LojasMoveis\\Areas\\Admin\\Views\\AdminGrafico\\VendasMensal.cshtml",
-              "ToolTip": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Views\\AdminGrafico\\VendasMensal.cshtml",
-              "RelativeToolTip": "LojasMoveis\\Areas\\Admin\\Views\\AdminGrafico\\VendasMensal.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T23:16:30.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VendasSemanal.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Views\\AdminGrafico\\VendasSemanal.cshtml",
-              "RelativeDocumentMoniker": "LojasMoveis\\Areas\\Admin\\Views\\AdminGrafico\\VendasSemanal.cshtml",
-              "ToolTip": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Views\\AdminGrafico\\VendasSemanal.cshtml",
-              "RelativeToolTip": "LojasMoveis\\Areas\\Admin\\Views\\AdminGrafico\\VendasSemanal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T23:15:14.946Z",
+              "WhenOpened": "2024-09-07T02:14:20.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Footer.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Views\\Shared\\_Footer.cshtml",
-              "RelativeDocumentMoniker": "LojasMoveis\\Views\\Shared\\_Footer.cshtml",
-              "ToolTip": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Views\\Shared\\_Footer.cshtml",
-              "RelativeToolTip": "LojasMoveis\\Views\\Shared\\_Footer.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T23:14:22.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GraficoVendasServices.cs",
-              "DocumentMoniker": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Servicos\\GraficoVendasServices.cs",
-              "RelativeDocumentMoniker": "LojasMoveis\\Areas\\Admin\\Servicos\\GraficoVendasServices.cs",
-              "ToolTip": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Servicos\\GraficoVendasServices.cs",
-              "RelativeToolTip": "LojasMoveis\\Areas\\Admin\\Servicos\\GraficoVendasServices.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAkwCwAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Program.cs",
+              "RelativeDocumentMoniker": "LojasMoveis\\Program.cs",
+              "ToolTip": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Program.cs",
+              "RelativeToolTip": "LojasMoveis\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T23:08:20.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Startup.cs",
-              "RelativeDocumentMoniker": "LojasMoveis\\Startup.cs",
-              "ToolTip": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Startup.cs",
-              "RelativeToolTip": "LojasMoveis\\Startup.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCcAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T22:47:03.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "LojasMoveis\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "LojasMoveis\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-06T22:53:49.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RelatorioVendasService.cs",
-              "DocumentMoniker": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Servicos\\RelatorioVendasService.cs",
-              "RelativeDocumentMoniker": "LojasMoveis\\Areas\\Admin\\Servicos\\RelatorioVendasService.cs",
-              "ToolTip": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Areas\\Admin\\Servicos\\RelatorioVendasService.cs",
-              "RelativeToolTip": "LojasMoveis\\Areas\\Admin\\Servicos\\RelatorioVendasService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T23:08:15.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MovelGrafico.cs",
-              "DocumentMoniker": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Models\\MovelGrafico.cs",
-              "RelativeDocumentMoniker": "LojasMoveis\\Models\\MovelGrafico.cs",
-              "ToolTip": "C:\\Users\\Gee\u00EAh Luis\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\Models\\MovelGrafico.cs",
-              "RelativeToolTip": "LojasMoveis\\Models\\MovelGrafico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T22:13:52.162Z",
+              "WhenOpened": "2024-09-07T02:07:07.271Z",
               "EditorCaption": ""
             }
           ]
