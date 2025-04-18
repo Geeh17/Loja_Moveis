@@ -1,0 +1,47 @@
+## Arquivos de build e binários
+/bin/
+/obj/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+
+## Pacotes NuGet
+*.nupkg
+
+## Publicação
+publish/
+
+## Test results
+TestResults/
+
+## Entity Framework Migrations
+Migrations/
+
+## SQL Server LocalDB
+*.mdf
+*.ldf
+
+## Node e front-end
+node_modules/
+
+## Logs e arquivos temporários
+*.log
+
+## Configurações de desenvolvimento
+appsettings.Development.json
+appsettings.Development.*.json
+
+## Outros
+*.env
+
+## Ignorar arquivos de bibliotecas compiladas
+*.dll
