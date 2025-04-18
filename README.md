@@ -98,24 +98,6 @@ LojasMoveis é uma aplicação web desenvolvida em ASP.NET Core MVC (.NET 6) de
 /Migrations         → Migrações do banco de dados
 ```
 
----
-
-## 🤝 Contribuições
-Contribuições são bem‑vindas! Siga este fluxo:
-
-1. Fork no GitHub:
-   ```bash
-   git clone https://github.com/Geeh17/Loja_Moveis.git
-   git checkout -b feature/nova-funcionalidade
-   ```
-2. Faça suas alterações e commits:
-   ```bash
-   git commit -m "Descrição da mudança"
-   ```
-3. Envie para sua branch e abra um Pull Request.
-
----
-
 ## 🖋 Desenvolvido por
 **Geraldo Luiz**  
 GitHub: https://github.com/Geeh17  
