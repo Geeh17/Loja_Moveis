@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Geraldo Luiz\\Desktop\\Projetos Pessoais\\Loja_moveis\\LojasMoveis\\LojasMoveis\\LojasMoveis.csproj": {}
+    "C:\\Users\\Geraldo Luiz\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\LojasMoveis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Geraldo Luiz\\Desktop\\Projetos Pessoais\\Loja_moveis\\LojasMoveis\\LojasMoveis\\LojasMoveis.csproj": {
+    "C:\\Users\\Geraldo Luiz\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\LojasMoveis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Geraldo Luiz\\Desktop\\Projetos Pessoais\\Loja_moveis\\LojasMoveis\\LojasMoveis\\LojasMoveis.csproj",
+        "projectUniqueName": "C:\\Users\\Geraldo Luiz\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\LojasMoveis.csproj",
         "projectName": "LojasMoveis",
-        "projectPath": "C:\\Users\\Geraldo Luiz\\Desktop\\Projetos Pessoais\\Loja_moveis\\LojasMoveis\\LojasMoveis\\LojasMoveis.csproj",
+        "projectPath": "C:\\Users\\Geraldo Luiz\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\LojasMoveis.csproj",
         "packagesPath": "C:\\Users\\Geraldo Luiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Geraldo Luiz\\Desktop\\Projetos Pessoais\\Loja_moveis\\LojasMoveis\\LojasMoveis\\obj\\",
+        "outputPath": "C:\\Users\\Geraldo Luiz\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net6.0": {
@@ -102,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

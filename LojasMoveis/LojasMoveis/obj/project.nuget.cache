@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QGflvuvASj4=",
+  "dgSpecHash": "nQ2Pizq5B+o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Geraldo Luiz\\Desktop\\Projetos Pessoais\\Loja_moveis\\LojasMoveis\\LojasMoveis\\LojasMoveis.csproj",
+  "projectFilePath": "C:\\Users\\Geraldo Luiz\\Desktop\\Projetos Pessoais\\LojaMoveis\\LojasMoveis\\LojasMoveis\\LojasMoveis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Geraldo Luiz\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Geraldo Luiz\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
