@@ -51,7 +51,6 @@ builder.Services.AddPaging(options =>
 builder.Services.AddMemoryCache();
 builder.Services.AddSession();
 
-
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -63,44 +62,37 @@ else
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
-app.UseHttpsRedirection();
 
+app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 
 CriarPerfisUsuarios(app);
 
-
 app.UseSession();
-
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllerRoute(
-     name: "areas",
-     pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}");
+app.MapControllerRoute(
+    name: "areas",
+    pattern: "{area:exists}/{controller=Admin}/{action=Index}/{id?}");
 
-    endpoints.MapControllerRoute(
-       name: "categoriaFiltro",
-       pattern: "Movel/{action}/{categoria?}",
-       defaults: new { Controller = "Movel", action = "List" });
+app.MapControllerRoute(
+    name: "categoriaFiltro",
+    pattern: "Movel/{action}/{categoria?}",
+    defaults: new { Controller = "Movel", action = "List" });
 
-    endpoints.MapControllerRoute(
-        name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}");
-});
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
 
 void CriarPerfisUsuarios(WebApplication app)
 {
-    var scopedFactory = app.Services.GetService<IServiceScopeFactory>();
-    using (var scope = scopedFactory.CreateScope())
-    {
-        var service = scope.ServiceProvider.GetService<ISeedUserRoleInitial>();
-        service.SeedUsers();
-        service.SeedRoles();
-    }
+    var scopedFactory = app.Services.GetRequiredService<IServiceScopeFactory>();
+    using var scope = scopedFactory.CreateScope();
+    var service = scope.ServiceProvider.GetRequiredService<ISeedUserRoleInitial>();
+    service.SeedRoles();
+    service.SeedUsers();
 }

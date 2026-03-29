@@ -44,6 +44,8 @@ namespace LojasMoveis.Controllers
         public IActionResult Details(int movelId)
         {
             var movel = _movelRepository.Moveis.FirstOrDefault(l => l.MovelId == movelId);
+            if (movel == null)
+                return NotFound();
             return View(movel);
         }
         public ViewResult Search(string searchString)

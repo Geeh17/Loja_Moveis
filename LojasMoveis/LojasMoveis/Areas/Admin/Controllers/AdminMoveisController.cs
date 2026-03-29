@@ -156,8 +156,11 @@ namespace LojasMoveis.Areas.Admin.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var movel = await _context.Moveis.FindAsync(id);
-            _context.Moveis.Remove(movel);
-            await _context.SaveChangesAsync();
+            if (movel != null)
+            {
+                _context.Moveis.Remove(movel);
+                await _context.SaveChangesAsync();
+            }
             return RedirectToAction(nameof(Index));
         }
 

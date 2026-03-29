@@ -54,8 +54,16 @@ namespace LojasMoveis.Controllers
             //valida os dados do pedido
             if (ModelState.IsValid)
             {
-                //cria o pedido e os detalhes
-                _pedidoRepository.CriarPedido(pedido);
+                try
+                {
+                    //cria o pedido e os detalhes
+                    _pedidoRepository.CriarPedido(pedido);
+                }
+                catch (InvalidOperationException ex)
+                {
+                    ModelState.AddModelError("", ex.Message);
+                    return View(pedido);
+                }
 
                 //define mensagens ao cliente
                 ViewBag.CheckoutCompletoMensagem = "Obrigado pelo seu pedido! :) Estamos trabalhando para garantir a melhor experiência para você.";

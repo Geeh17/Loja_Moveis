@@ -12,23 +12,21 @@ namespace LojasMoveis.Models
             _context = context;
         }
 
-        public string CarrinhoCompraId { get; set; }
-        public List<CarrinhoCompraItem> CarrinhoCompraItens { get; set; }
+        public string CarrinhoCompraId { get; set; } = string.Empty;
+        public List<CarrinhoCompraItem> CarrinhoCompraItens { get; set; } = new();
 
         public static CarrinhoCompra GetCarrinho(IServiceProvider services)
         {
-            //Define uma sessão
-            ISession session = 
-                services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
+            ISession session =
+                services.GetRequiredService<IHttpContextAccessor>().HttpContext!.Session;
 
-            var context = services.GetService<AppDbContext>();
+            var context = services.GetRequiredService<AppDbContext>();
             string carrinhoId = session.GetString("CarrinhoId") ?? Guid.NewGuid().ToString();
 
             session.SetString("CarrinhoId", carrinhoId);
 
             return new CarrinhoCompra(context)
             {
-
                 CarrinhoCompraId = carrinhoId
             };
         }

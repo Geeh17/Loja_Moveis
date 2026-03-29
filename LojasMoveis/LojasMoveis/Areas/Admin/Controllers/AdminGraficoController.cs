@@ -1,9 +1,11 @@
 ﻿using LojasMoveis.Areas.Admin.Servicos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LojasMoveis.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class AdminGraficoController : Controller
     {
         private readonly GraficoVendasService _graficoVendas;
@@ -14,6 +16,7 @@ namespace LojasMoveis.Areas.Admin.Controllers
                 new ArgumentNullException(nameof(graficoVendas));
         }
 
+        [HttpGet]
         public JsonResult VendasMoveis(int dias)
         {
             var moveisVendasTotais = _graficoVendas.GetVendasMoveis(dias);

@@ -1,7 +1,7 @@
-﻿namespace LojasMoveis.Models
+namespace LojasMoveis.Models
 {
     public class ConfigurationImagens
     {
-        public string NomePastaImagensProdutos { get; set; }
+        public string NomePastaImagensProdutos { get; set; } = string.Empty;
     }
 }

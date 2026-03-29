@@ -1,4 +1,4 @@
-﻿using LojasMoveis.Context;
+using LojasMoveis.Context;
 using LojasMoveis.Models;
 using LojasMoveis.Repositories.Interfaces;
 
@@ -21,12 +21,19 @@ namespace LojasMoveis.Repositories
             pedido.PedidoEnviado = DateTime.Now;
             _appDbContext.Pedidos.Add(pedido);
             _appDbContext.SaveChanges();
-            
-            var carrinhoCompraItens = _carrinhoCompra.CarrinhoCompraItens;
+
+            // Garante que os itens estejam carregados
+            var carrinhoCompraItens = _carrinhoCompra.CarrinhoCompraItens
+                ?? _carrinhoCompra.GetCarrinhoCompraItens();
 
             foreach (var carrinhoItem in carrinhoCompraItens)
             {
-                var pedidoDetail = new PedidoDetalhe()
+                // Verifica estoque antes de registrar o item no pedido
+                if (!carrinhoItem.Movel.EmEstoque)
+                    throw new InvalidOperationException(
+                        $"O móvel '{carrinhoItem.Movel.Nome}' não está disponível em estoque.");
+
+                var pedidoDetail = new PedidoDetalhe
                 {
                     Quantidade = carrinhoItem.Quantidade,
                     MovelId = carrinhoItem.Movel.MovelId,
@@ -34,7 +41,11 @@ namespace LojasMoveis.Repositories
                     Preco = carrinhoItem.Movel.Preco
                 };
                 _appDbContext.PedidoDetalhes.Add(pedidoDetail);
+
+                // Marca fora de estoque se esgotado (lógica simples — sem controle de quantidade real)
+                // Para controle de estoque por quantidade, adicione a coluna QuantidadeEstoque no modelo Movel.
             }
+
             _appDbContext.SaveChanges();
         }
     }
